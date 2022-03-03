@@ -18,7 +18,15 @@ To run this example:
 
     ```
 
-  - pulumi login file://~  ( use local file for storing pulumi state , for testing this )
+  - setup pulumi state to local file for testing this 
+
+    ```
+
+      $ pulumi login file://~
+
+
+    ```
+
   - source AWS credentials 
 
 ## Running the App
