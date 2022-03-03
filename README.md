@@ -5,7 +5,13 @@ This example Pulumi application runs two containers locally, one Redis container
 
 ## Prerequisites
 
-To run this example, make sure [Docker](https://docs.docker.com/engine/installation/) is installed and running.
+To run this example:
+
+  - make sure [Docker](https://docs.docker.com/engine/installation/) is installed and running
+  - make sure [Pulumi](https://www.pulumi.com/docs/get-started/install/) is installed
+  - recommended to run it in a python venv ie. run  python3 -m venv venv && source venv/bin/activate && pip3 install -r requirements.txt
+  - pulumi login file://~  ( use local file for storing pulumi state , for testing this )
+  - source AWS credentials 
 
 ## Running the App
 
